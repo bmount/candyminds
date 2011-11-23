@@ -1,5 +1,6 @@
 An anagrammatic, turn-key CouchDB eventual replacement for the base free dynamic
-dns use case.
+dns use case. It reports a nameserverless public ip address to a pair of couchdb's, 
+and the public one 302's outside traffic back to the private one.
 
 [More info about CouchApps here.](http://couchapp.org) [including installation]
 
