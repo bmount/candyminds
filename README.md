@@ -21,8 +21,8 @@ Edit the `poller.py` `CAPITALIZED_VARIABLES`, or do something equivalent to it i
 some other language. You can run a process like `poller.py` from within
 couchdb by adding the following lines to your `local.ini`:
 
-`[os\_daemons]
-candyminds_poller = /usr/bin/python /opt/poller.py`
+`[os\_daemons]`
+`candyminds_poller = /usr/bin/python /opt/poller.py`
 
 [This works great in Debian and not really in OS X, will run in foreground on
 either.]
@@ -32,6 +32,7 @@ replication (in futon -> replicator -> local candyminds to iriscouch
 candyminds).
 
 Then visit your new easy-to-remember-url at
+
 `http://youraccount.iriscouch.com/candyminds/_design/cm/_show/current/current_ip_address`
 
 You can create an easier-to-remember url by using `vhosts` and one of iriscouch's
