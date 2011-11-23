@@ -2,7 +2,7 @@
 
 import json
 import time
-import urllib2, urllib
+import urllib2
 
 USER = '' # couch user name
 PASSWD = '' # password
